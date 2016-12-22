@@ -18,9 +18,9 @@ I want to create a new model called `Bunny`, with the following attributes: name
 
 What does the command in Question 2 do, exactly? What files are created, where are they located, and what does the database look like at this time? Explain.
 
-**a full set of model, database migration for that model, controller to manipulate it, views to view and manipulate the data, and a test suite for each of the above.**
+**With that command we told Rails that we want a Bunny model, together with a name attribute of type string,color attribute of type string and an age attribute of type integer. Those attributes are automatically added to the bunnies table in the database and mapped to the Bunny model. Rails responded by creating a bunch of files**
 
-**The generator checks that there exist the directories for models, controllers, helpers, layouts, functional and unit tests, stylesheets, creates the views, controller, model and database migration for Bunny (creating the table and fields), takes care of the route for the resource, and new tests for everything.**
+
 
 
 ### Question 4
@@ -29,19 +29,19 @@ I want to create a database and make it reflect the new model I created in Quest
 
 **cd BunnyApp**
 
-**rake db:create  or rails db:create**
+**rake db:create  or rails db:create  db:migrate**
 
 ### Question 5
 
 I want to look at the actual database that has been created. What command should I type in the terminal?
 
-**rails dbconsole**
+**rails dbconsole or psql or rails c**
 
 ### Question 6
 
 I want to see a list of all the URLs available in my app, along with the HTTP requests and controllers associated with them. What command should I type in the terminal?
 
-**rake route**
+**rake route or rake route**
 
 ### Question 7
 

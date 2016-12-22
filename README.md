@@ -6,7 +6,7 @@ Fork, clone, and write your answers directly in this file. Then submit a pull re
 
 I want to start a new Rails project/app called `BunnyApp`. What command should I type in the terminal?
 
-**rails new BunnyApp**
+**rails new BunnyApp or rails new BunnyApp -d postgresql**
 
 ### Question 2
 
@@ -41,7 +41,7 @@ I want to look at the actual database that has been created. What command should
 
 I want to see a list of all the URLs available in my app, along with the HTTP requests and controllers associated with them. What command should I type in the terminal?
 
-**rake route or rake route**
+**rails route or rake route**
 
 ### Question 7
 

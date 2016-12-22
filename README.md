@@ -12,7 +12,7 @@ I want to start a new Rails project/app called `BunnyApp`. What command should I
 
 I want to create a new model called `Bunny`, with the following attributes: name (string), color (string), and age (integer). What command(s) should I type in the terminal and/or Sublime? (In your answer, create both a migration and the model file.)
 
-**rails generate scaffold Bunny name:string color:string age:integer**
+**rails g model bunny name:string color:string age:integer**
 
 ### Question 3
 
